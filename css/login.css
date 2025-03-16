@@ -1,0 +1,292 @@
+body {
+    margin: 0; /* Xóa khoảng cách mặc định */
+    padding: 0; /* Xóa đệm mặc định */
+    font-family: Arial, sans-serif; /* Đặt font chữ mặc định */
+    background-color: #f0f0f0; /* Đặt màu nền */
+    color: #333; /* Đặt màu chữ mặc định */
+}
+
+.header {
+
+    background-color: rgba(255,255,255,255); 
+}
+
+#main_heder {
+    background-color: rgba(255,255,255,255); 
+    display: flex;
+    width: 100%; /* Đảm bảo chiều rộng 100% */
+    text-align: center;
+    margin-left: 180px;
+    margin-right: 180px;
+    padding-top: 10px;
+}
+
+#logo {
+    width: 20%; /* Chiếm 1/4 chiều rộng */
+    /* Không cần chiều cao ở đây nếu không có nội dung cụ thể */
+    
+
+}
+#MINHLONG_logo{
+    width: 250px;
+    height: 45px;
+}
+#search {
+    
+    display: flex; /* Để căn giữa nội dung nếu cần */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    width: 500px;
+}
+#search input[type="search"] {
+    width: 400px; /* Chiều rộng */
+    height: 33px; /* Chiều cao */
+    padding: 5px; /* Khoảng cách bên trong để cải thiện giao diện */
+    border: 1px solid #ccc; /* Đường viền */
+}
+#search button[type="submit"] {
+    margin-left:  -5px;
+    width: 71px; /* Chiều rộng */
+    height: 33px; /* Chiều cao */
+    padding: 5px; /* Khoảng cách bên trong */
+    border: none; /* Xóa đường viền mặc định */
+    background-color: #4CAF50; /* Màu nền */
+    color: white; /* Màu chữ */
+    cursor: pointer; /* Con trỏ khi hover */
+}
+
+/* Thêm hiệu ứng khi di chuột */
+#search button[type="submit"]:hover {
+    background-color: #45a049; /* Màu nền khi hover */
+}
+
+.icon {
+    display: flex;
+    align-items: center; /* Căn giữa theo chiều dọc */
+}
+p{
+    
+    font-size: 13px;
+    color: #2d2d2dac;
+}
+#donhang, #giohang{
+    margin-right: 15px;
+}
+#icon1, #icon2, #icon3{
+    color: #4CAF50;
+}
+
+#main{
+    padding: 5px;
+    background-color: rgba(212,212,212,255);
+}
+.menu_hedear{
+    margin-left: 180px;
+    margin-right: 180px;
+    display: flex;
+}
+#title{
+    width: 15%;
+    display: flex;
+    align-items: center;
+}
+
+#menu{
+    display: flex;
+    align-items: center;
+}
+.img2{
+    margin-right: 5px;
+    width: 30px;
+    height: 30px;
+}
+/* span{
+    margin-top: 8px;
+} */
+#ship_cod, #free_ship, #sdt{
+    display: flex;
+    margin-left: 40px;
+}
+
+.menu_header{
+    margin-top: 5px;
+}
+
+
+
+
+/* -------------------------------loginbox----------------------------------------- */
+h3{
+    font-weight : 100 ;
+}
+
+.box_login{
+    display: flex; /* Sử dụng Flexbox cho container */
+    flex-direction: column; /* Xếp các item theo chiều dọc */
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-bottom: 50px;
+    border-bottom: #333 solid 0.2px;
+}
+#fa_btn{
+    color: rgba(255,255,255,255) ;
+    background-color: #3b5998;
+    width: 200px;
+    height: 40;
+    padding: 10px;
+    border: 0;
+    font-size: 15px;
+}
+#gg_btn{
+    margin-top: 10px;
+    color:rgba(255,255,255,255) ;
+    background-color: #d34836;
+    width: 200px;
+    height: 40;
+    padding: 10px;
+    font-size: 15px;
+    border: 0;
+}
+
+.container{
+    display: flex; /* Sử dụng Flexbox cho container */
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    width: 40%; /* Đặt chiều rộng cho container đăng nhập */
+     /* Khoảng cách bên phải */
+    align-items: center;
+}
+.box_signup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    display: flex;
+}
+input{
+    border: none; /* Xóa đường viền mặc định của input */
+    outline: none; /* Xóa outline khi focus */
+    flex: 1; /* Chiếm toàn bộ chiều rộng còn lại */
+    height: 40px; /* Chiều cao của ô nhập liệu */
+    padding: 5px; /* Khoảng cách bên trong */
+    width: 400px;
+    height: 40px;
+}
+.sign_form{
+    display: flex;
+    flex-direction: column; /* Xếp các item theo chiều dọc */
+    align-items: center;
+}
+/* span{
+    margin-top: -2px;
+    margin-right: 5px;
+} */
+.input_icon{
+    color:gray ;
+    display: flex; /* Sử dụng Flexbox cho input */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    margin-bottom: 15px; /* Khoảng cách giữa các ô nhập liệu */
+    border: 1px solid #ccc; /* Đường viền cho container */
+    border-radius: 5px; /* Bo góc */
+    padding: 5px; /* Khoảng cách bên trong */
+    background-color: #fff; /* Màu nền */
+}
+#login_btn, #signup_btn{
+    width: 400px;
+    height: 40px;
+    background-color: #4CAF50; /* Màu nền */
+    border: 0;
+    color: white;
+
+}
+
+/* <!------------------------------------------------- footer_promotion---------------------------------- --> */
+.footer_promotion{
+    background-color: rgba(255,255,255,255) ;
+    padding-bottom: 20px;
+}
+.footer_promotion_main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Cách đều nhau */
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 30px;
+    padding-top: 20px;
+}
+.item_footer_promotion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.item_footer_promotion h4{
+    color:#4CAF50;
+    font-weight: 10;
+    text-align: center;
+}
+.item_footer_promotion p{
+    text-align: center;
+    margin-top: -20px;
+}
+.img_footer_promotion{
+    width: 50px;
+    height: 40px;
+}
+/* ----------------------------------------footer_main---------------------------------------------- */
+
+.footer_main{
+    background-color: rgba(1,68,33,255);
+    color: white;
+    padding-top: 30px;
+}
+.footer_main_cotainer{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-weight: 3;
+}
+.footer_main_cotainer_col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.footer_main_cotainer_col,.footer_main_cotainer_col1 {
+    width: 250px;
+}
+.footer_logo{
+    width: 220px;
+    height: 35px;
+}
+.footer_main_cotainer_col1{
+    margin-right: 80px;
+}
+.footer_main_cotainer_col1 p{
+    color: white;
+    font-size: 14px ;
+    margin-bottom: 5px;
+    line-height: 1.6; /* Tăng khoảng cách giữa các dòng */
+}
+.footer_main_cotainer_col ul{
+    list-style-type: none;
+    padding: 0%;
+}
+.footer_main_cotainer_col li{
+    margin-bottom: 10px;
+    font-weight: 2;
+    font-size: 14px;
+}
+.footer_main_cotainer_title{
+    width: 80%;
+    border-bottom: white dashed 0.2px;
+}

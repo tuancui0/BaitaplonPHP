@@ -1,0 +1,205 @@
+body {
+    margin: 0; /* Xóa khoảng cách mặc định */
+    padding: 0; /* Xóa đệm mặc định */
+    font-family: Arial, sans-serif; /* Đặt font chữ mặc định */
+    background-color: #f0f0f0; /* Đặt màu nền */
+    color: #333; /* Đặt màu chữ mặc định */
+}
+
+.header {
+
+    background-color: rgba(255,255,255,255); 
+}
+
+#main_heder {
+    background-color: rgba(255,255,255,255); 
+    display: flex;
+    width: 100%; /* Đảm bảo chiều rộng 100% */
+    text-align: center;
+    margin-left: 180px;
+    margin-right: 180px;
+    padding-top: 10px;
+}
+
+#logo {
+    width: 20%; /* Chiếm 1/4 chiều rộng */
+    /* Không cần chiều cao ở đây nếu không có nội dung cụ thể */
+    
+
+}
+#MINHLONG_logo{
+    width: 250px;
+    height: 45px;
+}
+#search {
+    
+    display: flex; /* Để căn giữa nội dung nếu cần */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    width: 500px;
+}
+#search input[type="search"] {
+    width: 400px; /* Chiều rộng */
+    height: 33px; /* Chiều cao */
+    padding: 5px; /* Khoảng cách bên trong để cải thiện giao diện */
+    border: 1px solid #ccc; /* Đường viền */
+}
+#search button[type="submit"] {
+    margin-left:  -5px;
+    width: 71px; /* Chiều rộng */
+    height: 33px; /* Chiều cao */
+    padding: 5px; /* Khoảng cách bên trong */
+    border: none; /* Xóa đường viền mặc định */
+    background-color: #4CAF50; /* Màu nền */
+    color: white; /* Màu chữ */
+    cursor: pointer; /* Con trỏ khi hover */
+}
+
+/* Thêm hiệu ứng khi di chuột */
+#search button[type="submit"]:hover {
+    background-color: #45a049; /* Màu nền khi hover */
+}
+
+.icon {
+    display: flex;
+    align-items: center; /* Căn giữa theo chiều dọc */
+}
+p{
+    
+    font-size: 13px;
+    color: #2d2d2dac;
+}
+#donhang, #giohang{
+    margin-right: 15px;
+}
+#icon1, #icon2, #icon3{
+    color: #4CAF50;
+}
+
+#main{
+    padding: 5px;
+    background-color: rgba(212,212,212,255);
+}
+.menu_hedear{
+    margin-left: 180px;
+    margin-right: 180px;
+    display: flex;
+}
+#title{
+    width: 15%;
+    display: flex;
+    align-items: center;
+}
+
+#menu{
+    display: flex;
+    align-items: center;
+}
+.img2{
+    margin-right: 5px;
+    width: 30px;
+    height: 30px;
+}
+/* span{
+    margin-top: 8px;
+} */
+#ship_cod, #free_ship, #sdt{
+    display: flex;
+    margin-left: 40px;
+}
+#account:hover p{
+    color: #45a049;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* <!------------------------------------------------- footer_promotion---------------------------------- --> */
+.footer_promotion{
+    background-color: rgba(255,255,255,255) ;
+    padding-bottom: 20px;
+}
+.footer_promotion_main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Cách đều nhau */
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 30px;
+    padding-top: 20px;
+}
+.item_footer_promotion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.item_footer_promotion h4{
+    color:#4CAF50;
+    font-weight: 10;
+    text-align: center;
+}
+.item_footer_promotion p{
+    text-align: center;
+    margin-top: -20px;
+}
+.img_footer_promotion{
+    width: 50px;
+    height: 40px;
+}
+/* ----------------------------------------footer_main---------------------------------------------- */
+
+.footer_main{
+    background-color: rgba(1,68,33,255);
+    color: white;
+    padding-top: 30px;
+}
+.footer_main_cotainer{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-weight: 3;
+}
+.footer_main_cotainer_col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.footer_main_cotainer_col,.footer_main_cotainer_col1 {
+    width: 250px;
+}
+.footer_logo{
+    width: 220px;
+    height: 35px;
+}
+.footer_main_cotainer_col1{
+    margin-right: 80px;
+}
+.footer_main_cotainer_col1 p{
+    color: white;
+    font-size: 14px ;
+    margin-bottom: 5px;
+    line-height: 1.6; /* Tăng khoảng cách giữa các dòng */
+}
+.footer_main_cotainer_col ul{
+    list-style-type: none;
+    padding: 0%;
+}
+.footer_main_cotainer_col li{
+    margin-bottom: 10px;
+    font-weight: 2;
+    font-size: 14px;
+}
+.footer_main_cotainer_title{
+    width: 80%;
+    border-bottom: white dashed 0.2px;
+}
